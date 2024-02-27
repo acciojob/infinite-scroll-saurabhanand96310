@@ -5,7 +5,7 @@ let ol=document.getElementById("infi-list")
 function generateListItem() {
   // Code to generate a list item
      let newListItem = document.createElement("li")
-	newListItem.innerHtml("Item")
+	newListItem.innerHTML="Item"
 	ol.append(newListItem)
 	
 }
