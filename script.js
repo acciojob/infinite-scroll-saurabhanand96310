@@ -1,11 +1,12 @@
 //your code here!
 // Function to generate a list item
-let ol=getElementById("infi-list")
+let ol=document.getElementById("infi-list")
 
 function generateListItem() {
   // Code to generate a list item
-     let newListItem = document.createElement("li");
-	ol.append("newListItem")
+     let newListItem = document.createElement("li")
+	newListItem.innerHtml("Item")
+	ol.append(newListItem)
 	
 }
 
